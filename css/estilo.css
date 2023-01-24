@@ -1,0 +1,431 @@
+
+* {
+    margin:0;
+    padding:0;
+}
+
+body {
+    background-image: linear-gradient(to bottom, rgb(233, 233, 240), rgb(188, 188, 236));
+
+}
+
+.tituloindex__h1 {
+    color: white;
+    background-image: url(../img/backgroundimg.png);
+    font-size: 2.5rem;
+    font-family: 'Mulish', sans-serif;
+    text-align: center;
+    padding: 3.125rem;
+}
+
+.headerindex__barranav {
+    text-align: center;
+    
+}
+
+
+
+.headerindex__barranav nav ul {
+    background-color: rgb(255, 255, 255); 
+    height: auto;
+    display: flex;
+    list-style:none;
+    align-items: center;
+    justify-content: center;
+}
+
+.headerindex__barranav nav ul li a {
+    color: black;
+    width: 12.5rem;
+    margin: 0.6rem;
+    padding: 1.25rem;
+    background-color: aquamarine;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 800;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 5px;
+    display: inline-block;
+    
+    
+     }
+
+.btn__tablet {
+    visibility: hidden;
+    position: absolute;
+}
+
+
+
+.main__index {
+    background-color:rgb(203, 245, 232);
+    display: none;
+
+}
+
+.tittleindex__h2 {
+    background-color: whitesmoke ;
+    font-family: 'Jost', sans-serif;
+    text-align: center;
+}
+
+.contenedorindex {
+    background-color:rgb(203, 245, 232);
+    height: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20px 0 20px;
+    padding-bottom: 20px;
+}
+
+.contenedorindex div {
+    background-color:rgb(255, 255, 255);
+    height: 500px;
+    width: 400px;
+    text-align: center;
+    margin-top: 20px;
+    display: inline-block;
+ }
+
+.contenedorindex div h2 {
+    font-family: 'Dosis', sans-serif;
+    background-color: whitesmoke;
+    width: 400px;
+ }
+
+ .contenedorindex div img {
+    height: 200px;
+    width: 350px;
+    margin: 20px;
+ }
+
+ .contenedorindex div h3 {
+    font-family: 'Mulish', sans-serif;
+    font-size: 15px;
+    background-color: rgb(208, 208, 231);
+    width: 350px;
+    margin: 0 25px 25px 25px;
+ }
+
+ .contenedorindex div p {
+    font-family: 'Jost', sans-serif;
+    width: 350px;
+    margin: 0 25px 25px 25px;
+
+ }
+
+.section__index {
+    background-color:rgb(203, 245, 232);
+    height: auto;
+    display: none;
+}
+
+.iframe {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.iframe__titulo {
+    font-family: 'Mulish', sans-serif;
+   background-color: whitesmoke;
+}
+
+.iframe__video {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-flow: row wrap;
+}
+
+iframe {
+    border-radius: 5px;
+    margin: 20px;
+}
+
+
+footer {
+    background-image: linear-gradient(to bottom, rgb(255, 255, 255), rgb(188, 188, 236));
+
+}
+
+.footerlogoclubs__img {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-flow: row wrap;
+    display:none;
+}
+
+footer div img {
+    height: 50px;
+    width: 50px;
+}
+.ligalogo__img {
+    height: 50px;
+    width: 100px;
+}
+
+.textofooter__h4 {
+    font-family: 'Dosis', sans-serif;
+    display: flex;
+    justify-content: center;
+    text-align: center;  
+}
+
+footer div a img {
+    height: 40px;
+    width: 40px;
+    margin: 15px 15px 0 15px;
+}
+
+
+.footerredeslogo__img{
+    display: flex;
+    justify-content: center;
+}
+
+
+/* Desde aqui paginas secundarias */
+
+
+.header__pages {
+    background-color:rgb(177, 218, 205);
+    height: auto;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content:center;
+
+
+}
+
+.header__pages div {
+    margin: 20px;
+    display: inline-flex;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+.tittlepages__h1{
+ color: black;
+ font-family: 'Mulish', sans-serif;
+ flex-flow: row wrap;
+}
+
+body header div img {
+    height: 6.25rem;
+    width: 6.25rem;
+    border-radius: 20px;
+}
+
+.iconosligas__pages ul li a img {
+    width: 3rem;
+    height: 3rem;
+}
+.iconosligas__pages ul { 
+    height: auto;
+    display: flex;
+    list-style: none;
+
+}
+
+
+.iconosligas__pages ul  li a .logoliga__width  {
+    width: 6rem;
+}
+
+.iconosligas__pages ul  li a .iconohome__size {
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+/*main*/
+
+main {
+    background-color:rgb(203, 245, 232);
+   
+}
+
+.contenedorarticulos__pages {
+    padding-top: 1rem;
+    height: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 0 20px 0 20px;
+}
+
+.articulouno__pages , .articulodos__pages, .articulotres__pages { 
+    background-color:rgb(255, 255, 255);
+    font-family: 'Mulish', sans-serif;
+    height: 500px;
+    width: 400px;
+    text-align: center;
+    margin: 15px;
+    display: inline-block;
+    border-radius: 20px;
+
+}
+
+.articulouno__pages h2 , .articulodos__pages h2 , .articulotres__pages h2  { 
+    color: black;
+    background-color: whitesmoke ;
+    margin-bottom: 30px;
+}
+
+.bonuspages__h2  {
+    margin-top: 100px;
+}
+
+.articulouno__pages p , .articulodos__pages h3, .articulotres__pages p {
+    padding: 10px;
+}
+
+.articulodos__pages ul li {
+    list-style: none;
+    text-align:initial;
+    margin-left: 100px;
+}
+
+.trofeologo__img {
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+.campeoneslogo__pages div {
+    display: inline-block;
+    flex-flow: row wrap;
+
+}
+
+.campeoneslogo__pages div img{
+    height:70px;
+    width:70px;
+
+}
+
+
+/*Section */
+
+
+.contenedorsection h2 {
+    background-color: whitesmoke ;
+    font-family: 'Jost', sans-serif;
+    text-align: center;
+} 
+
+.bestplayersimg__pages {
+    display: flex;
+    background-color:rgb(203, 245, 232);
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-flow: row wrap;
+    font-family: 'Mulish', sans-serif;
+}
+
+.bestplayersimg__pages div img {
+    height: 256px;
+    width: 278px;
+}
+
+
+@media screen and (min-width:600px) {
+    .main__index {
+        display: block;
+    } 
+
+    .btn__mobile{
+        visibility: hidden;
+        position: absolute;
+
+    }
+
+    .btn__tablet {
+        visibility: visible;
+        position:static;
+    }
+
+
+    
+    .headerindex__barranav nav ul li a {
+        width:6.2rem;
+        padding: 1.25rem;
+     }
+
+
+     .section__index {
+        display: block;
+     }
+
+     footer {   
+        background-image: linear-gradient(to bottom, rgb(203, 245, 232), rgb(105, 219, 219)); 
+}
+
+
+
+@media screen and (min-width:1024px) {
+    .main__index {
+        display: block;
+    } 
+
+    .btn__tablet{
+        visibility: hidden;
+        position: absolute;
+
+    }
+
+    .btn__mobile {
+        visibility: visible;
+        position:static;
+    }
+
+    .headerindex__barranav nav ul li a {
+        width:8rem;
+        transition: 0.5s;
+        
+        }
+
+     .headerindex__barranav nav ul li a:hover{
+        transform: scale(1.1);
+        transition: 0.5s;
+            
+     }
+
+     .contenedorindex div img {
+        transition: 0.5s;
+     }
+
+     .contenedorindex div img:hover {
+        transform: scale(1.1);
+        transition: 0.3s ;
+
+     }
+
+     .main__index {
+    
+        display: grid;
+        grid-template-columns:auto;
+        grid-template-rows: 1fr ;
+
+        grid-template-areas:
+        "tittleindex__h2 tittleindex__h2 tittleindex__h2"
+        "contenedorindex contenedorindex contenedorindex";
+
+     }
+
+     .main__index .contenedorindex {
+        grid-area: contenedorindex;
+      
+     }
+
+     .main__index .tittleindex__h2 {
+        grid-area:tittleindex__h2 ;
+     }
+
+     }
+
+}           
