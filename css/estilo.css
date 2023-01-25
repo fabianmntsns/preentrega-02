@@ -232,11 +232,8 @@ body header div img {
 
 }
 
-
-
-.iconosligas__pages ul  li a .iconohome__size {
-    width: 2.5rem;
-    height: 2.5rem;
+.iconohome__size {
+    margin-right: 1.5rem;
 }
 
 /*main*/
