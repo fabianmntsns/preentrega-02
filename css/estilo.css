@@ -193,11 +193,11 @@ footer div a img {
 
 .header__pages {
     background-color:rgb(177, 218, 205);
-    height: auto;
+    height: aut;
     display: grid;
     flex-flow: row wrap;
     align-items: center;
-    justify-content:center;
+    justify-items: center;
 
 
 }
@@ -458,5 +458,5 @@ main {
      .iconosligas__pages img:hover {
         transform: scale(1.1);
         transition: 0.3s ;
-
+    }
 }
