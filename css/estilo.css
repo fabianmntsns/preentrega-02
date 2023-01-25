@@ -229,7 +229,6 @@ body header div img {
     height: auto;
     display: flex;
     list-style: none;
-
 }
 
 .iconohome__size {
@@ -437,7 +436,7 @@ main {
     
 }
 
-.iconosligas__pages ul li a {
+.iconosligas__pages li a {
         width:8rem;
         transition: 0.5s;
     }
@@ -453,6 +452,26 @@ main {
      }
 
      .iconosligas__pages img:hover {
+        transform: scale(1.1);
+        transition: 0.3s ;
+    }
+
+    .bestplayersimg__pages div img {
+        transition: 0.5s;
+        margin-bottom: 0.7rem;
+    }
+    
+    .bestplayersimg__pages div img:hover{
+        transform: scale(1.1);
+        transition: 0.3s ;
+
+     }
+
+     .bestplayersimg__pages div img {
+        transition: 0.5s;
+     }
+
+     .bestplayersimg__pages div img:hover {
         transform: scale(1.1);
         transition: 0.3s ;
     }
