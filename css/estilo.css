@@ -6,6 +6,7 @@
 
 body {
     background-image: linear-gradient(to bottom, rgb(233, 233, 240), rgb(188, 188, 236));
+    width: 1fr;
 
 }
 
@@ -429,8 +430,6 @@ main {
 
      .main__index .tittleindex__h2 {
         grid-area:tittleindex__h2 ;
-     }
-
      }
 
 }           
