@@ -194,7 +194,7 @@ footer div a img {
 .header__pages {
     background-color:rgb(177, 218, 205);
     height: auto;
-    display: flex;
+    display: grid;
     flex-flow: row wrap;
     align-items: center;
     justify-content:center;
@@ -436,9 +436,27 @@ main {
     .header__pages {
         background-color:rgb(161, 235, 211);
         justify-content:space-around;
+        display: flex;
     
-    
-
 }
+
+.iconosligas__pages ul li a {
+        width:8rem;
+        transition: 0.5s;
+    }
     
+    .iconosligas__pages li a:hover{
+        transform: scale(1.1);
+        transition: 0.3s ;
+
+     }
+
+     .iconosligas__pages img {
+        transition: 0.5s;
+     }
+
+     .iconosligas__pages img:hover {
+        transform: scale(1.1);
+        transition: 0.3s ;
+
 }
