@@ -362,7 +362,12 @@ main {
      }
 
      footer {   
-        background-image: linear-gradient(to bottom, rgb(203, 245, 232), rgb(105, 219, 219)); 
+        background-image: linear-gradient(to bottom, rgb(203, 245, 232), rgb(105, 219, 219));
+     }
+        
+    .footerlogoclubs__img {
+        display: block;
+    }
 }
 
 
