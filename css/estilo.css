@@ -6,7 +6,7 @@
 
 body {
     background-image: linear-gradient(to bottom, rgb(233, 233, 240), rgb(188, 188, 236));
-    width: 1fr;
+    width: 1fr; /* verificar despues si se queda*/
 
 }
 
@@ -21,6 +21,7 @@ body {
 
 .headerindex__barranav {
     text-align: center;
+
     
 }
 
@@ -148,6 +149,7 @@ iframe {
 
 footer {
     background-image: linear-gradient(to bottom, rgb(255, 255, 255), rgb(188, 188, 236));
+    padding-top: 0.5rem;
 
 }
 
@@ -164,10 +166,7 @@ footer div img {
     height: 50px;
     width: 50px;
 }
-.ligalogo__img {
-    height: 50px;
-    width: 100px;
-}
+
 
 .textofooter__h4 {
     font-family: 'Dosis', sans-serif;
@@ -212,7 +211,7 @@ footer div a img {
 
 .tittlepages__h1{
  color: black;
- font-family: 'Mulish', sans-serif;
+ font-family: 'Montserrat', sans-serif;
  flex-flow: row wrap;
 }
 
@@ -234,9 +233,6 @@ body header div img {
 }
 
 
-.iconosligas__pages ul  li a .logoliga__width  {
-    width: 6rem;
-}
 
 .iconosligas__pages ul  li a .iconohome__size {
     width: 2.5rem;
@@ -432,4 +428,17 @@ main {
         grid-area:tittleindex__h2 ;
      }
 
-}           
+}     
+
+/* desde aqui tamaños de pantallas pages */
+
+@media screen and (min-width:600px) {
+    .header__pages {
+        background-color:rgb(161, 235, 211);
+        justify-content:space-around;
+    
+    
+
+}
+    
+}
