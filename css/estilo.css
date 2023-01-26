@@ -7,61 +7,26 @@
 body {
     background-image: linear-gradient(to bottom, rgb(233, 233, 240), rgb(188, 188, 236));
     width: 1fr; /* verificar despues si se queda*/
-
 }
 
-.tituloindex__h1 {
-    color: white;
-    background-image: url(../img/backgroundimg.png);
-    font-size: 2.5rem;
+
+.size-imagen ul li a img {
+    width: 3rem;
+    height: 3rem;
+}
+
+.estilo-titulo {
     font-family: 'Mulish', sans-serif;
+    font-weight: bold;
     text-align: center;
-    padding: 3.125rem;
-}
-
-.headerindex__barranav {
-    text-align: center;
-
-    
 }
 
 
 
-.headerindex__barranav nav ul {
-    background-color: rgb(255, 255, 255); 
-    height: auto;
-    display: flex;
-    list-style:none;
-    align-items: center;
-    justify-content: center;
-}
-
-.headerindex__barranav nav ul li a {
-    color: black;
-    width: 12.5rem;
-    margin: 0.6rem;
-    padding: 1.25rem;
-    background-color: aquamarine;
-    font-family: 'Mulish', sans-serif;
-    font-weight: 800;
-    text-decoration: none;
-    text-align: center;
-    border-radius: 5px;
-    display: inline-block;
-    
-    
-     }
-
-.btn__tablet {
-    visibility: hidden;
-    position: absolute;
-}
-
-
+/* no tocar hacia abajo*/
 
 .main__index {
     background-color:rgb(203, 245, 232);
-    display: none;
 
 }
 
@@ -150,6 +115,7 @@ iframe {
 footer {
     background-image: linear-gradient(to bottom, rgb(255, 255, 255), rgb(188, 188, 236));
     padding-top: 0.5rem;
+    
 
 }
 

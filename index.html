@@ -8,24 +8,39 @@
     <link href="https://fonts.googleapis.com/css2?family=Dosis&family=Jost&family=Yanone+Kaffeesatz:wght@300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Dosis&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="css/estilo.css">
     <title>Big Five</title>
 </head>
-<body>
-    <header class="headerindex__barranav">
-        <h1 class="tituloindex__h1"> Las 5 mejores ligas de fútbol de Europa</h1>
-        <nav>
-            <ul>
-                <li class="menu__index">
-                    <a class="btn" href="pages/laliga.html">La Liga</a>
-                    <a class="btn__mobile" href="pages/premier.html">Premier League</a>
-                    <a class="btn__tablet" href="pages/premier.html">Premier</a>
-                    <a class="btn" href="pages/bundesliga.html">Bundesliga</a>
-                    <a class="btn" href="pages/league1.html">League 1</a>
-                    <a class="btn" href="pages/seriea.html">Serie A</a>
-                </li>
-            </ul>
-        </nav>
+<body>  
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <h1 class="navbar-brand estilo-titulo" href="#">Las 5 mejores ligas de Europa</h1>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse size-imagen text-center" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-1">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="pages/laliga.html">La Liga de España <img src="img/laligalogo.png" alt=""></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="pages/bundesliga.html">Bundesliga<img src="img/bundesligalogo2.png" alt=""></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="pages/league1.html">Ligue One<img src="img/ligueonelogo.png" alt=""></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="pages/premier.html">Premier League<img src="img/premierleaguelogo1.png" alt=""></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="pages/seriea.html">Serie A<img src="img/seriealogo.png" alt=""></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
     </header>
     <main class="main__index">
         <h2 class="tittleindex__h2"> Noticias </h2>
@@ -75,5 +90,6 @@
             <a href="https://twitter.com/?lang=es" target="_blank"> <img src="img/twitterlogo.png"  alt=""></a>
         </div>
     </footer> 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
 </html>
