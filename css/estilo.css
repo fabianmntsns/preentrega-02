@@ -177,9 +177,11 @@ footer div a img {
 }
 
 .tittlepages__h1{
- color: black;
+ color: rgb(0, 0, 0);
  font-family: 'Montserrat', sans-serif;
- flex-flow: row wrap;
+ 
+
+
 }
 
 body header div img {

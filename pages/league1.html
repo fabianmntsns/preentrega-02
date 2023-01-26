@@ -8,6 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Dosis&family=Jost&family=Yanone+Kaffeesatz:wght@300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Dosis&family=Jost&family=Montserrat:wght@300&family=Roboto:wght@100&family=Yanone+Kaffeesatz:wght@300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/estilo.css">
     <title> Ligue One </title>
 </head>
@@ -20,17 +21,30 @@
         <div class="tittlepages__h1">
             <h1 > Ligue One </h1>
         </div>
-        <nav class="iconosligas__pages">
-            <ul>
-                <li>
-                   <a href="../index.html"><img class="iconohome__size" src="../img/home.png" alt=""></a>
-                   <a href="../pages/premier.html"><img src="../img/premierleaguelogo1.png" alt=""></a>
-                   <a href="../pages/bundesliga.html"><img src="../img/bundesligalogo2.png" alt=""></a>
-                   <a href="../pages/laliga.html"><img src="../img/laligalogo.png" alt=""></a>
-                   <a href="../pages/seriea.html"><img src="../img/seriealogo.png" alt=""></a>    
-                </li>
-            </ul>
-        </nav>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse size-imagen text-center divcontenedor-navbarlogos" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-1">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../index.html"><img class="iconohome__size" src="../img/home.png" alt=""></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="pages../laliga.html"><img src="../img/laligalogo.png" alt=""></a>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../pages/bundesliga.html"><img src="../img/bundesligalogo2.png" alt=""></a>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../pages/premier.html"><img src="../img/premierleaguelogo1.png" alt=""></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../pages/seriea.html"><img src="../img/seriealogo.png" alt=""></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
     </header>
     <main>
         <div class="contenedorarticulos__pages">
@@ -115,5 +129,6 @@
             <a href="https://twitter.com/?lang=es" target="_blank"> <img src="../img/twitterlogo.png"  alt=""></a>
         </div>
     </footer> 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
 </html>
