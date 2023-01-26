@@ -23,7 +23,6 @@ body {
 }
 
 
-
 /* no tocar hacia abajo*/
 
 .main__index {
@@ -294,67 +293,17 @@ main {
 
 
 @media screen and (min-width:600px) {
-    .main__index {
-        display: block;
-    } 
 
-    .btn__mobile{
-        visibility: hidden;
-        position: absolute;
-
+    .navbar-estilo {
+    padding-left: 9rem;
     }
-
-    .btn__tablet {
-        visibility: visible;
-        position:static;
-    }
-
-
     
-    .headerindex__barranav nav ul li a {
-        width:6.2rem;
-        padding: 1.25rem;
-     }
-
-
-     .section__index {
-        display: block;
-     }
-
-     footer {   
-        background-image: linear-gradient(to bottom, rgb(203, 245, 232), rgb(105, 219, 219));
-     }
-        
-    .footerlogoclubs__img {
-        display: block;
-    }
-}
-
-
-
-@media screen and (min-width:1024px) {
-    .main__index {
-        display: block;
-    } 
-
-    .btn__tablet{
-        visibility: hidden;
-        position: absolute;
-
-    }
-
-    .btn__mobile {
-        visibility: visible;
-        position:static;
-    }
-
-    .headerindex__barranav nav ul li a {
-        width:8rem;
+    .divcontenedor-navbarlogos ul li a {
         transition: 0.5s;
         
         }
 
-     .headerindex__barranav nav ul li a:hover{
+    .divcontenedor-navbarlogos ul li a:hover{
         transform: scale(1.1);
         transition: 0.5s;
             
@@ -389,6 +338,10 @@ main {
 
      .main__index .tittleindex__h2 {
         grid-area:tittleindex__h2 ;
+     }
+
+     .section__index {
+        display: block;
      }
 
 }     
