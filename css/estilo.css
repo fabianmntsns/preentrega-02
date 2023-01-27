@@ -42,7 +42,7 @@ body {
 
 }
 
-.tittleindex__h2 {
+.main__index h2 {
     background-color: whitesmoke ;
     font-family: 'Jost', sans-serif;
     text-align: center;
@@ -50,7 +50,7 @@ body {
 }
 
 
-.contenedorindex {
+.contenedormain__index {
     background-color:rgb(203, 245, 232);
     display: flex;
     flex-flow: row wrap;
@@ -61,7 +61,7 @@ body {
 }
 
 
-.contenedorindex div {
+.contenedormain__index div {
     background-color:rgb(255, 255, 255);
     height: 500px;
     width: 400px;
@@ -70,19 +70,19 @@ body {
     display: inline-block;
  }
 
-.contenedorindex div h2 {
+.contenedormain__index div h2 {
     font-family: 'Dosis', sans-serif;
     background-color: whitesmoke;
     width: 400px;
  }
 
- .contenedorindex div img {
+ .contenedormain__index div img {
     height: 200px;
     width: 350px;
     margin: 20px;
  }
 
- .contenedorindex div h3 {
+ .contenedormain__index div h3 {
     font-family: 'Mulish', sans-serif;
     font-size: 15px;
     background-color: rgb(208, 208, 231);
@@ -90,7 +90,7 @@ body {
     margin: 0 25px 25px 25px;
  }
 
- .contenedorindex div p {
+ .contenedormain__index div p {
     font-family: 'Jost', sans-serif;
     width: 350px;
     margin: 0 25px 25px 25px;
@@ -330,11 +330,6 @@ main {
         font-weight: bold;
         font-family: 'Dosis', sans-serif; 
     }
-    .estilo-titulo {
-        font-family: 'Mulish', sans-serif;
-        font-weight: bold;
-
-    }
         
     .navcontenedor-estilo {
         padding-left: 10%;
@@ -376,31 +371,29 @@ main {
     }
     
 
-    .main__index  .contenedor__noticiauno {
+    .contenedor__noticiauno {
         grid-area: contenedor__noticiauno;
     }
 
-    .main__index .contenedor__noticiados {
+    .contenedor__noticiados {
         grid-area:contenedor__noticiados;
     }
 
-    .main__index .contenedor__noticiatres{
+    .contenedor__noticiatres{
         grid-area: contenedor__noticiatres;
     }
 
-    .main__index .contenedor__noticiacuatro{
+    .contenedor__noticiacuatro{
         grid-area: contenedor__noticiacuatro;
     }
 
-    .main__index .contenedor__noticiacinco{
+    .contenedor__noticiacinco{
         grid-area: contenedor__noticiacinco;
     }
 
-    .main__index .contenedor__noticiaseis{
+    .contenedor__noticiaseis{
         grid-area: contenedor__noticiaseis;
     }
-
-
 
     .section__index {
         display: block;
