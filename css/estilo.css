@@ -364,8 +364,8 @@ main {
 
 
         grid-template-areas: 
-        "contenedor__noticiauno contenedor__noticiados"
-        "contenedor__noticiatres contenedor__noticiacuatro";
+        "contenedor__noticiauno contenedor__noticiados contenedor__noticiatres"
+        "contenedor__noticiacuatro contenedor__noticiacinco contenedor__noticiaseis";
         justify-content: center;
         gap:1rem;
     }
@@ -386,6 +386,16 @@ main {
     .main__index .contenedor__noticiacuatro{
         grid-area: contenedor__noticiacuatro;
     }
+
+    .main__index .contenedor__noticiacinco{
+        grid-area: contenedor__noticiacinco;
+    }
+
+    .main__index .contenedor__noticiaseis{
+        grid-area: contenedor__noticiaseis;
+    }
+
+
 
     .section__index {
         display: block;
