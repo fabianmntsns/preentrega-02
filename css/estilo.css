@@ -46,18 +46,20 @@ body {
     background-color: whitesmoke ;
     font-family: 'Jost', sans-serif;
     text-align: center;
+    margin: 0;
 }
+
 
 .contenedorindex {
     background-color:rgb(203, 245, 232);
-    height: auto;
     display: flex;
     flex-flow: row wrap;
+    height: auto;
     justify-content: center;
     align-items: center;
-    margin: 0 20px 0 20px;
     padding-bottom: 20px;
 }
+
 
 .contenedorindex div {
     background-color:rgb(255, 255, 255);
@@ -355,38 +357,43 @@ main {
 
      }
 
-     .main__index {
-    
+     .contenedorindex {
         display: grid;
-        grid-template-columns:auto;
-        grid-template-rows: 1fr ;
+        grid-template-columns: auto ;
+        grid-template-rows: auto;
 
-        grid-template-areas:
-        "tittleindex__h2 tittleindex__h2 tittleindex__h2"
-        "contenedorindex contenedorindex contenedorindex";
 
-     }
+        grid-template-areas: 
+        "contenedor__noticiauno contenedor__noticiados"
+        "contenedor__noticiatres contenedor__noticiacuatro";
+        justify-content: center;
+        gap:1rem;
+    }
+    
 
-     .main__index .contenedorindex {
-        grid-area: contenedorindex;
-      
-     }
+    .main__index  .contenedor__noticiauno {
+        grid-area: contenedor__noticiauno;
+    }
 
-     .main__index .tittleindex__h2 {
-        grid-area:tittleindex__h2 ;
-     }
+    .main__index .contenedor__noticiados {
+        grid-area:contenedor__noticiados;
+    }
 
-     .section__index {
+    .main__index .contenedor__noticiatres{
+        grid-area: contenedor__noticiatres;
+    }
+
+    .main__index .contenedor__noticiacuatro{
+        grid-area: contenedor__noticiacuatro;
+    }
+
+    .section__index {
         display: block;
-     }
-
-     .footerlogoclubs__img {
-        display: block;
-     }
+    }
 
 }     
 
-/* desde aqui tamaños de pantallas pages */
+/* desde aqui media queries de pages */
 
 @media screen and (min-width:600px) {
     .header__pages {
