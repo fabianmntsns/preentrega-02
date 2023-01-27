@@ -8,6 +8,10 @@ body {
     background-image: linear-gradient(to bottom, rgb(233, 233, 240), rgb(188, 188, 236));
     width: 1fr; /* verificar despues si se queda*/
 }
+.size-imagen3 {
+    padding-left: 25%;
+
+}
 
 
 .size-imagen ul li a img {
@@ -179,10 +183,16 @@ footer div a img {
 .tittlepages__h1{
  color: rgb(0, 0, 0);
  font-family: 'Montserrat', sans-serif;
- 
 
 
 }
+
+.estilo-toggler {
+    align-items: center;
+    background-color: brown;
+}
+
+
 
 body header div img {
     height: 6.25rem;
