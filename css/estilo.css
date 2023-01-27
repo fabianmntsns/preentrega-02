@@ -30,6 +30,7 @@ body {
     font-family: 'Mulish', sans-serif;
     font-weight: bold;
     text-align: center;
+    
 
 }
 
@@ -314,9 +315,24 @@ main {
 
 @media screen and (min-width:600px) {
 
-    .navbar-estilo {
-    padding-left: 9rem;
+   .togglerindex-estilo{
+        background-color: rgb(187, 187, 187);
+        margin-left: 15%;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+        font-weight: bold;
+        font-family: 'Dosis', sans-serif; 
     }
+    .estilo-titulo {
+        font-family: 'Mulish', sans-serif;
+        font-weight: bold;
+
+    }
+        
+    .navcontenedor-estilo {
+        padding-left: 10%;
+    }
+    
     
     .divcontenedor-navbarlogos ul li a {
         transition: 0.5s;
