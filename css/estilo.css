@@ -266,6 +266,10 @@ main {
     padding: 10px;
 }
 
+.articulotres__pages img {
+    border-radius: 20px;
+}
+
 .articulodos__pages ul li {
     list-style: none;
     text-align:initial;
