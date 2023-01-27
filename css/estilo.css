@@ -297,6 +297,7 @@ main {
     background-color: whitesmoke ;
     font-family: 'Jost', sans-serif;
     text-align: center;
+    margin-bottom: 0;
 } 
 
 .bestplayersimg__pages {
