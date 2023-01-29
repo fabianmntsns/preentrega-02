@@ -2,6 +2,7 @@
 * {
     margin:0;
     padding:0;
+    box-sizing: border-box;
 }
 
 body {
@@ -50,7 +51,7 @@ body {
 }
 
 
-.contenedormain__index {
+.contenedorindex {
     background-color:rgb(203, 245, 232);
     display: flex;
     flex-flow: row wrap;
@@ -61,7 +62,7 @@ body {
 }
 
 
-.contenedormain__index div {
+.contenedorindex div {
     background-color:rgb(255, 255, 255);
     height: 500px;
     width: 400px;
@@ -70,19 +71,19 @@ body {
     display: inline-block;
  }
 
-.contenedormain__index div h2 {
+ .contenedorindex div h2 {
     font-family: 'Dosis', sans-serif;
     background-color: whitesmoke;
     width: 400px;
  }
 
- .contenedormain__index div img {
+ .contenedorindex div img {
     height: 200px;
     width: 350px;
     margin: 20px;
  }
 
- .contenedormain__index div h3 {
+ .contenedorindex div h3 {
     font-family: 'Mulish', sans-serif;
     font-size: 15px;
     background-color: rgb(208, 208, 231);
@@ -90,7 +91,7 @@ body {
     margin: 0 25px 25px 25px;
  }
 
- .contenedormain__index div p {
+ .contenedorindex div p {
     font-family: 'Jost', sans-serif;
     width: 350px;
     margin: 0 25px 25px 25px;
@@ -129,6 +130,7 @@ iframe {
 footer {
     background-image: linear-gradient(to bottom, rgb(255, 255, 255), rgb(188, 188, 236));
     padding-top: 0.5rem;
+    padding-bottom: 1rem;
     
 
 }
@@ -297,7 +299,7 @@ main {
 /*Section */
 
 
-.contenedorsection h2 {
+.contenedorsection__pages h2 {
     background-color: whitesmoke ;
     font-family: 'Jost', sans-serif;
     text-align: center;
@@ -397,24 +399,57 @@ main {
 
     .section__index {
         display: block;
-    }
 
 }     
 
 /* desde aqui media queries de pages */
 
 @media screen and (min-width:600px) {
+
+    .body__pages {
+        display: grid;
+        grid-template-columns: 5% 2fr 2fr 2fr;
+        grid-template-rows:auto;
+
+        grid-template-areas: 
+        "header__pages header__pages header__pages header__pages"
+        " footer__pages main__pages main__pages main__pages"
+        "footer__pages contenedorsection__pages contenedorsection__pages contenedorsection__pages";   
+    }
+
+    .header__pages {
+        grid-area: header__pages;
+    }
+
+    .footer__pages {
+        grid-area: footer__pages;
+    }
+
+    .main__pages {
+        grid-area: main__pages;
+    }
+
+    .footer__pages {
+        grid-area: footer__pages;
+    }
+
+    .contenedorsection__pages {
+        grid-area: contenedorsection__pages;
+    }
+
+    }
+
     .header__pages {
         background-color:rgb(161, 235, 211);
         justify-content:space-around;
         display: flex;
     
-}
-.iconohome__size {
-    margin-right: 1.5rem;
-}
+    }
+    .iconohome__size {
+        margin-right: 1.5rem;
+    }
 
-.iconosligas__pages li a {
+    .iconosligas__pages li a {
         width:8rem;
         transition: 0.5s;
     }
@@ -425,11 +460,11 @@ main {
 
      }
 
-     .iconosligas__pages img {
+    .iconosligas__pages img {
         transition: 0.5s;
      }
 
-     .iconosligas__pages img:hover {
+    .iconosligas__pages img:hover {
         transform: scale(1.1);
         transition: 0.3s ;
     }
@@ -445,11 +480,11 @@ main {
 
      }
 
-     .bestplayersimg__pages div img {
+    .bestplayersimg__pages div img {
         transition: 0.5s;
      }
 
-     .bestplayersimg__pages div img:hover {
+    .bestplayersimg__pages div img:hover {
         transform: scale(1.1);
         transition: 0.3s ;
     }
