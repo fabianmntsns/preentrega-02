@@ -6,7 +6,6 @@
 }
 
 body {
-    background-image: linear-gradient(to bottom, rgb(233, 233, 240), rgb(188, 188, 236));
     width: 1fr; /* verificar despues si se queda*/
 }
 .navbar-logos {
@@ -128,7 +127,6 @@ iframe {
 
 
 footer {
-    background-image: linear-gradient(to bottom, rgb(255, 255, 255), rgb(188, 188, 236));
     padding-top: 0.5rem;
     padding-bottom: 1rem;
     
@@ -238,13 +236,14 @@ main {
     margin: 0 20px 0 20px;
 }
 
-.articulouno__pages , .articulodos__pages, .articulotres__pages { 
+.articulouno__pages , .articulodos__pages, .articulotres__pages {  /* valores con mayuscula pasar a mediaqueries */
     background-color:rgb(255, 255, 255);
     font-family: 'Mulish', sans-serif;
     height: auto;
-    width: 400px;
+    Width: 24.5rem;
     text-align: center;
-    margin: 15px;
+    Margin-left: 0.5rem;
+    Margin-right: 1rem;
     display: inline-block;
     border-radius: 20px;
 
@@ -408,36 +407,52 @@ main {
 
     .body__pages {
         display: grid;
-        grid-template-columns: 5% 2fr 2fr 2fr;
+        grid-template-columns: 3% 2fr 2fr 2fr;
         grid-template-rows:auto;
+        background-color:rgb(203, 245, 232);
+    
 
         grid-template-areas: 
         "header__pages header__pages header__pages header__pages"
-        " footer__pages main__pages main__pages main__pages"
+        "footer__pages main__pages main__pages main__pages"
         "footer__pages contenedorsection__pages contenedorsection__pages contenedorsection__pages";   
     }
 
     .header__pages {
         grid-area: header__pages;
-    }
 
-    .footer__pages {
-        grid-area: footer__pages;
     }
 
     .main__pages {
         grid-area: main__pages;
+
     }
 
     .footer__pages {
         grid-area: footer__pages;
+        writing-mode: vertical-lr;
+        display: flex;
+        align-items: center;
+        position: relative;
+        justify-content: space-around;
+        margin: 3rem;
+        background-color: black;
+    }   
+
+    .footer__pages .textofooter__h4 {
+        transform: rotate(180deg);
+        margin-top: 30px;
     }
 
     .contenedorsection__pages {
         grid-area: contenedorsection__pages;
     }
 
+    .contenedorsection__pages h2 {
+        margin-left: 5rem;
+        margin-right: 10rem;
     }
+
 
     .header__pages {
         background-color:rgb(161, 235, 211);
