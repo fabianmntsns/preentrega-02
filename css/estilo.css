@@ -26,13 +26,10 @@
     font-family: 'Mulish', sans-serif;
     font-weight: bold;
     text-align: center;
-
 }
-
 
 .main__index {
     background-color:rgb(203, 245, 232);
-
 }
 
 .main__index h2 {
@@ -158,7 +155,6 @@ footer div a img {
     filter:grayscale(100%);
 }
 
-
 /* Desde aqui paginas secundarias */
 
 /* header de pages */ 
@@ -182,8 +178,6 @@ footer div a img {
 .tittlepages__h1{
  color: rgb(0, 0, 0);
  font-family: 'Montserrat', sans-serif;
-
-
 }
 
 .estilo-toggler {
@@ -292,7 +286,6 @@ body header div img {
 .campeoneslogo__pages div img{
     height:4.3rem;
     width:4.3rem;
-
 }
 
 /*Section pages */
@@ -340,12 +333,8 @@ body header div img {
     
     .divcontenedor-navbarlogos ul li a , .footer__pages .footerredeslogo__img a , .articulotres__pages img {
         transition: 0.5s;
-        
         }
     
-    .footer__pages .footerredeslogo__img a{
-        transition: 0.5s;
-    }
     
     .divcontenedor-navbarlogos ul li a:hover , .footer__pages .footerredeslogo__img a:hover , .articulotres__pages img:hover{
         transform: scale(1.1);
@@ -412,7 +401,7 @@ body header div img {
 
 /* desde aqui media queries de pages */
 
-@media screen and (min-width:1024px) {
+@media screen and (min-width:1024px){
 
     .body__pages {
         display: grid;
@@ -447,7 +436,6 @@ body header div img {
         .iconosligas__pages li a:hover{
             transform: scale(1.1);
             transition: 0.3s ;
-
         }
 
     .main__pages {
@@ -499,4 +487,4 @@ body header div img {
             transform: rotate(180deg);
             margin-top: 1.8;
         }
-    }
+ }
