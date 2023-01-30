@@ -7,7 +7,7 @@
 
 .navbar-logos {
     padding-left: 25%;
-}
+}   
 
 .togglerindex-estilo{
     background-color:rgb(203, 245, 232);
@@ -53,43 +53,43 @@
     height: auto;
     justify-content: center;
     align-items: center;
-    padding-bottom: 20px;
+    padding-bottom: 1.25rem;
 }
 
 
 .contenedorindex div {
     background-color:rgb(255, 255, 255);
-    height: 500px;
-    width: 400px;
+    height: 31.25rem;
+    width: 25rem;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 1.25rem;
     display: inline-block;
  }
 
  .contenedorindex div h2 {
     font-family: 'Dosis', sans-serif;
     background-color: whitesmoke;
-    width: 400px;
+    width: 25rem;
  }
 
  .contenedorindex div img {
-    height: 200px;
-    width: 350px;
-    margin: 20px;
+    height: 12.5rem;
+    width: 21.87rem;
+    margin: 1.25rem;
  }
 
  .contenedorindex div h3 {
     font-family: 'Mulish', sans-serif;
-    font-size: 15px;
+    font-size: 1rem;
     background-color: rgb(208, 208, 231);
-    width: 350px;
-    margin: 0 25px 25px 25px;
+    width: 21.87rem;
+    margin: 0 1.56rem 1.56rem 1.56rem;
  }
 
  .contenedorindex div p {
     font-family: 'Jost', sans-serif;
-    width: 350px;
-    margin: 0 25px 25px 25px;
+    width: 21.87rem;
+    margin: 0 1.56rem 1.56rem 1.56rem;
 
  }
 
@@ -101,7 +101,7 @@
 
 .iframe {
     text-align: center;
-    padding-top: 20px;
+    padding-top: 1.25rem;
 }
 
 .iframe__titulo {
@@ -118,7 +118,7 @@
 
 iframe {
     border-radius: 5px;
-    margin: 20px;
+    margin: 1.25rem;
 }
 
 
@@ -137,8 +137,8 @@ footer {
 }
 
 footer div img {
-    height: 50px;
-    width: 50px;
+    height: 3.12rem;
+    width: 3.12rem;
 }
 
 .textofooter__h4 {
@@ -149,9 +149,9 @@ footer div img {
 }
 
 footer div a img {
-    height: 40px;
-    width: 40px;
-    margin: 15px 15px 0 15px;
+    height: 2.5rem;
+    width: 2.5rem;
+    margin: 1rem 1rem 0 1rem;
 }
 
 
@@ -175,7 +175,7 @@ footer div a img {
 }
 
 .header__pages div {
-    margin: 20px;
+    margin: 1.25rem;
     display: inline-flex;
     align-items: center;
     flex-flow: row wrap;
@@ -246,19 +246,26 @@ body header div img {
 .articulouno__pages h2 , .articulodos__pages h2 , .articulotres__pages h2  { 
     color: black;
     background-color: whitesmoke ;
-    margin-bottom: 30px;
+    margin-bottom: 1.87rem;
 }
 
 .bonuspages__h2  {
-    margin-top: 100px;
+    margin-top: 6.25rem;
+    font-weight: bold;
+    font-size: 1.5rem;
 }
 
 .articulouno__pages img {
-    margin-bottom: 25px;
+    margin-bottom: 1.56rem;
 }
 
-.articulouno__pages p , .articulodos__pages h3, .articulotres__pages p {
-    padding: 10px;
+.articulouno__pages p , .articulotres__pages p {
+    padding: 0.6rem;
+}
+
+.articulodos__pages h3 , .articulouno__pages h2 , .articulodos__pages h2 , .articulotres__pages h2{
+    font-weight: bold;
+    font-size: 1.5rem;
 }
 
 .articulotres__pages img {
@@ -270,12 +277,12 @@ body header div img {
 .articulodos__pages ul li {
     list-style: none;
     text-align:initial;
-    margin-left: 100px;
+    margin-left: 6.25rem;
 }
 
 .trofeologo__img {
-    margin-top: 20px;
-    border-radius: 20px;
+    margin-top: 1.25rem;
+    border-radius: 1.25rem;
 }
 
 .campeoneslogo__pages div {
@@ -285,8 +292,8 @@ body header div img {
 }
 
 .campeoneslogo__pages div img{
-    height:70px;
-    width:70px;
+    height:4.3rem;
+    width:4.3rem;
 
 }
 
@@ -295,6 +302,7 @@ body header div img {
 .contenedorsection__pages h2 {
     background-color: whitesmoke ;
     font-family: 'Jost', sans-serif;
+    font-weight: bold;
     text-align: center;
     margin-bottom: 0;
 } 
@@ -310,8 +318,8 @@ body header div img {
 }
 
 .bestplayersimg__pages div img {
-    height: 256px;
-    width: 278px;
+    height: 16rem;
+    width: 17.3rem;
 }
 
 /* media queries de home */ 
@@ -343,7 +351,7 @@ body header div img {
     
     .divcontenedor-navbarlogos ul li a:hover , .footer__pages .footerredeslogo__img a:hover , .articulotres__pages img:hover{
         transform: scale(1.1);
-        transition: 0.5s;      
+        transition: 0.5s;
      }
 
     .footer__pages .footerredeslogo__img a:hover {
@@ -428,6 +436,7 @@ body header div img {
         display: flex;
         padding-right: 3rem;
     }
+
         .iconohome__size {
                 margin-right: 1.5rem;
             }
@@ -490,6 +499,6 @@ body header div img {
 
         .footer__pages .textofooter__h4 {
             transform: rotate(180deg);
-            margin-top: 30px;
+            margin-top: 1.8;
         }
     }
