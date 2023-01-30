@@ -26,12 +26,9 @@
     font-family: 'Mulish', sans-serif;
     font-weight: bold;
     text-align: center;
-    
 
 }
 
-
-/* no tocar hacia abajo*/
 
 .main__index {
     background-color:rgb(203, 245, 232);
@@ -158,6 +155,7 @@ footer div a img {
 .footerredeslogo__img{
     display: flex;
     justify-content: center;
+    filter:grayscale(100%);
 }
 
 
@@ -324,7 +322,7 @@ body header div img {
 
 /* media queries de home */ 
 
-@media screen and (min-width:600px) {
+@media screen and (min-width:1024px) {
 
    .togglerindex-estilo{
         background-color: rgb(187, 187, 187);
@@ -414,7 +412,7 @@ body header div img {
 
 /* desde aqui media queries de pages */
 
-@media screen and (min-width:600px) {
+@media screen and (min-width:1024px) {
 
     .body__pages {
         display: grid;
