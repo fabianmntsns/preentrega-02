@@ -5,12 +5,8 @@
     box-sizing: border-box;
 }
 
-body {
-    width: 1fr; /* verificar despues si se queda*/
-}
 .navbar-logos {
     padding-left: 25%;
-
 }
 
 .togglerindex-estilo{
@@ -129,8 +125,6 @@ iframe {
 footer {
     padding-top: 0.5rem;
     padding-bottom: 1rem;
-    
-
 }
 
 .footerlogoclubs__img {
@@ -146,7 +140,6 @@ footer div img {
     height: 50px;
     width: 50px;
 }
-
 
 .textofooter__h4 {
     font-family: 'Dosis', sans-serif;
@@ -170,6 +163,7 @@ footer div a img {
 
 /* Desde aqui paginas secundarias */
 
+/* header de pages */ 
 
 .header__pages {
     background-color:rgb(177, 218, 205);
@@ -178,8 +172,6 @@ footer div a img {
     flex-flow: row wrap;
     align-items: center;
     justify-items: center;
-
-
 }
 
 .header__pages div {
@@ -202,7 +194,6 @@ footer div a img {
 }
 
 
-
 body header div img {
     height: 6.25rem;
     width: 6.25rem;
@@ -220,9 +211,9 @@ body header div img {
 }
 
 
-/*main*/
+/*main de pages*/
 
-main {
+.main__pages {
     background-color:rgb(203, 245, 232);
    
 }
@@ -233,19 +224,22 @@ main {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    margin: 0 20px 0 20px;
+    gap: 1rem;
+    padding-bottom: 2rem;
 }
 
-.articulouno__pages , .articulodos__pages, .articulotres__pages {  /* valores con mayuscula pasar a mediaqueries */
+.articulouno__pages , .articulodos__pages, .articulotres__pages { 
     background-color:rgb(255, 255, 255);
     font-family: 'Mulish', sans-serif;
     height: auto;
-    Width: 24.5rem;
+    width: 24.5rem;
     text-align: center;
-    Margin-left: 0.5rem;
-    Margin-right: 1rem;
+    margin-left: 0.5rem;
+    margin-right: 1rem;
     display: inline-block;
     border-radius: 20px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 
 }
 
@@ -269,6 +263,8 @@ main {
 
 .articulotres__pages img {
     border-radius: 20px;
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
 
 .articulodos__pages ul li {
@@ -294,9 +290,7 @@ main {
 
 }
 
-
-/*Section */
-
+/*Section pages */
 
 .contenedorsection__pages h2 {
     background-color: whitesmoke ;
@@ -320,6 +314,7 @@ main {
     width: 278px;
 }
 
+/* media queries de home */ 
 
 @media screen and (min-width:600px) {
 
@@ -337,16 +332,24 @@ main {
     }
     
     
-    .divcontenedor-navbarlogos ul li a {
+    .divcontenedor-navbarlogos ul li a , .footer__pages .footerredeslogo__img a , .articulotres__pages img {
         transition: 0.5s;
         
         }
-
-    .divcontenedor-navbarlogos ul li a:hover{
-        transform: scale(1.1);
+    
+    .footer__pages .footerredeslogo__img a{
         transition: 0.5s;
-            
+    }
+    
+    .divcontenedor-navbarlogos ul li a:hover , .footer__pages .footerredeslogo__img a:hover , .articulotres__pages img:hover{
+        transform: scale(1.1);
+        transition: 0.5s;      
      }
+
+    .footer__pages .footerredeslogo__img a:hover {
+        transform: rotate(360deg);
+        transition: 0.5s;
+    }
 
      .contenedorindex div img {
         transition: 0.5s;
@@ -371,7 +374,6 @@ main {
         gap:1rem;
     }
     
-
     .contenedor__noticiauno {
         grid-area: contenedor__noticiauno;
     }
@@ -398,8 +400,9 @@ main {
 
     .section__index {
         display: block;
+     }
 
-}     
+ }
 
 /* desde aqui media queries de pages */
 
@@ -408,7 +411,7 @@ main {
     .body__pages {
         display: grid;
         grid-template-columns: 3% 2fr 2fr 2fr;
-        grid-template-rows:auto;
+        grid-template-rows: auto;
         background-color:rgb(203, 245, 232);
     
 
@@ -420,13 +423,60 @@ main {
 
     .header__pages {
         grid-area: header__pages;
-
+        background-color:rgb(161, 235, 211);
+        justify-content:space-around;
+        display: flex;
+        padding-right: 3rem;
     }
+        .iconohome__size {
+                margin-right: 1.5rem;
+            }
+
+        .iconosligas__pages li a {
+            width:8rem;
+            transition: 0.5s;
+        }
+        
+        .iconosligas__pages li a:hover{
+            transform: scale(1.1);
+            transition: 0.3s ;
+
+        }
 
     .main__pages {
         grid-area: main__pages;
-
     }
+        .contenedorarticulos__pages {
+                gap:0;
+                padding-left: 2rem;
+                padding-bottom: 0;
+            }
+    .contenedorsection__pages {
+        grid-area: contenedorsection__pages;    
+    }
+        .contenedorsection__pages h2 {
+                margin-left: 5rem;
+                margin-right: 5rem;
+            }
+    
+        .bestplayersimg__pages div img {
+            transition: 0.5s;
+            margin-bottom: 0.7rem;
+        }
+        
+        .bestplayersimg__pages div img:hover{
+            transform: scale(1.1);
+            transition: 0.3s ;
+        }
+
+        .bestplayersimg__pages div img {
+            transition: 0.5s;
+        }
+
+        .bestplayersimg__pages div img:hover {
+            transform: scale(1.1);
+            transition: 0.3s;
+        }
 
     .footer__pages {
         grid-area: footer__pages;
@@ -436,71 +486,10 @@ main {
         position: relative;
         justify-content: space-around;
         margin: 3rem;
-        background-color: black;
-    }   
+    }  
 
-    .footer__pages .textofooter__h4 {
-        transform: rotate(180deg);
-        margin-top: 30px;
+        .footer__pages .textofooter__h4 {
+            transform: rotate(180deg);
+            margin-top: 30px;
+        }
     }
-
-    .contenedorsection__pages {
-        grid-area: contenedorsection__pages;
-    }
-
-    .contenedorsection__pages h2 {
-        margin-left: 5rem;
-        margin-right: 10rem;
-    }
-
-
-    .header__pages {
-        background-color:rgb(161, 235, 211);
-        justify-content:space-around;
-        display: flex;
-    
-    }
-    .iconohome__size {
-        margin-right: 1.5rem;
-    }
-
-    .iconosligas__pages li a {
-        width:8rem;
-        transition: 0.5s;
-    }
-    
-    .iconosligas__pages li a:hover{
-        transform: scale(1.1);
-        transition: 0.3s ;
-
-     }
-
-    .iconosligas__pages img {
-        transition: 0.5s;
-     }
-
-    .iconosligas__pages img:hover {
-        transform: scale(1.1);
-        transition: 0.3s ;
-    }
-
-    .bestplayersimg__pages div img {
-        transition: 0.5s;
-        margin-bottom: 0.7rem;
-    }
-    
-    .bestplayersimg__pages div img:hover{
-        transform: scale(1.1);
-        transition: 0.3s ;
-
-     }
-
-    .bestplayersimg__pages div img {
-        transition: 0.5s;
-     }
-
-    .bestplayersimg__pages div img:hover {
-        transform: scale(1.1);
-        transition: 0.3s ;
-    }
-}
